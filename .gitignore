@@ -1,0 +1,12 @@
+.DS_Store
+bin/
+dist/
+coverage.out
+*.test
+*.tmp
+.env
+.env.local
+config.json
+config.local.json
+.config.local.json
+*.idea

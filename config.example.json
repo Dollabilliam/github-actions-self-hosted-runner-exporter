@@ -1,0 +1,19 @@
+{
+  "github": {
+    "base_url": "https://api.github.com",
+    "token_env": "GITHUB_TOKEN",
+    "timeout": "10s"
+  },
+  "server": {
+    "listen_address": ":9176"
+  },
+  "scrape": {
+    "refresh_interval": "60s",
+    "runs_per_repository": 20
+  },
+  "repositories": [
+    { "owner": "example-org", "name": "repo-1" },
+    { "owner": "example-org", "name": "repo-2" },
+    { "owner": "example-org", "name": "repo-3" }
+  ]
+}
